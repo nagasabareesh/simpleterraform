@@ -3,7 +3,7 @@ resource "aws_vpc" "main" {
   instance_tenancy = "${var.tenacy}"
 
   tags = {
-    Name = "main"
+    Name = "test"
   }
 }
 
